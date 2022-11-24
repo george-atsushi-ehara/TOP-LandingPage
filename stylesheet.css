@@ -57,15 +57,48 @@ a {
 
 
 /* ----------------- */
+/* ------Hero------- */
+/* ----------------- */
+
+.hero .content {
+    display: flex;
+    margin: 0;
+    padding: 100px 0;
+}
+
+.left, .right {
+    flex: 1;
+}
+/* ----------------- */
 /* ----Hero Left---- */
 /* ----------------- */
+.hero .content .left {
+ 
+}
 .hero .content .left h1 {
     color: #f9faf8;
     font-weight: 800;
     font-size: 48px;
+    padding: 0;
+    margin: 0;
 }
 
 .hero .content .left p {
     color: #e5e7eb;
     font-size: 18px;
+    margin: 5px;
+}
+
+/* ----------------- */
+/* ----Hero Right--- */
+/* ----------------- */
+
+.hero .content .right{
+    background-color: gray;
+    display: flex;
+}
+
+.hero .content .right p {
+    color: #fff;
+    margin: auto;
 }
