@@ -1,47 +1,71 @@
 body {
-    font-family: Roboto, sans-serif;
-    margin: 0; /* Was trying to figure out why header wasn't going across. Needed margin on the body to be 0 after inspecting chrome*/
+  font-family: Roboto, sans-serif;
+  margin: 0; /* Was trying to figure out why header wasn't going across. Needed margin on the body to be 0 after inspecting chrome*/
 }
 .side-padding {
-    padding: 0 50px;
+  padding: 0 50px;
 }
 
-.hero, .footer {
-    background-color: #1f2937;
+.hero,
+.footer {
+  background-color: #1f2937;
 }
 
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    padding: 6px 25px;
+    border: none;
+    border-radius: 5px;
+}
 /* -------------------- */
 /* ----Header Hero----- */
 /* -------------------- */
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
 }
 
 .logo {
-    font-size: 24px;
-    color: #f9faf8;
-    font-weight: bold;
-    flex-shrink: 0;
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bold;
+  flex-shrink: 0;
 }
 
 .nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-    flex-shrink: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-shrink: 0;
 }
 
-.nav ul li{
-    flex-shrink: 0;
+.nav ul li {
+  flex-shrink: 0;
 }
 a {
-    color: #e5e7fb;
-    text-decoration: none;
+  color: #e5e7fb;
+  text-decoration: none;
+}
+
+
+/* ----------------- */
+/* ----Hero Left---- */
+/* ----------------- */
+.hero .content .left h1 {
+    color: #f9faf8;
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.hero .content .left p {
+    color: #e5e7eb;
+    font-size: 18px;
 }
