@@ -12,12 +12,12 @@ body {
 }
 
 button {
-    background-color: #3882f6;
-    color: white;
-    font-weight: bold;
-    padding: 6px 25px;
-    border: none;
-    border-radius: 5px;
+  background-color: #3882f6;
+  color: white;
+  font-weight: bold;
+  padding: 6px 25px;
+  border: none;
+  border-radius: 5px;
 }
 /* -------------------- */
 /* ----Header Hero----- */
@@ -55,93 +55,101 @@ a {
   text-decoration: none;
 }
 
-
 /* ----------------- */
 /* ------Hero------- */
 /* ----------------- */
 
 .hero .content {
-    display: flex;
-    margin: 0;
-    padding: 100px 0;
+  display: flex;
+  margin: 0;
+  padding: 100px 0;
 }
 
-.left, .right {
-    flex: 1;
+.left,
+.right {
+  flex: 1;
 }
 /* ----------------- */
 /* ----Hero Left---- */
 /* ----------------- */
 .hero .content .left {
- 
 }
 .hero .content .left h1 {
-    color: #f9faf8;
-    font-weight: 800;
-    font-size: 48px;
-    padding: 0;
-    margin: 0;
+  color: #f9faf8;
+  font-weight: 800;
+  font-size: 48px;
+  padding: 0;
+  margin: 0;
 }
 
 .hero .content .left p {
-    color: #e5e7eb;
-    font-size: 18px;
-    margin: 5px;
+  color: #e5e7eb;
+  font-size: 18px;
+  margin: 5px;
 }
 
 /* ----------------- */
 /* ----Hero Right--- */
 /* ----------------- */
 
-.hero .content .right{
-    background-color: gray;
-    display: flex;
+.hero .content .right {
+  background-color: gray;
+  display: flex;
 }
 
 .hero .content .right p {
-    color: #fff;
-    margin: auto;
+  color: #fff;
+  margin: auto;
 }
 
 /* ---------------- */
-/* -----Project---- */ 
+/* -----Project---- */
 /* ---------------- */
 
 .project {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: auto 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: auto 300px;
 }
 
 .project .header {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 100px auto;
+  font-size: 48px;
+  font-weight: 800;
+  margin: 100px auto;
 }
 
 .project .container {
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    margin: auto 250px;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin: auto 250px;
+  margin-bottom: 100px;
 }
 
 .project .container .item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
 }
 
 .project .container .item img {
-    max-width: 150px;
-    border-radius: 10px;
-    border: 5px solid #3882f6 ;
+  max-width: 150px;
+  border-radius: 10px;
+  border: 5px solid #3882f6;
 }
 
 .project .container .item p {
-    text-align: justify;
-    text-align-last: center;
+  text-align: justify;
+  text-align-last: center;
+}
+
+
+/* ------------------ */
+/* -------quote------ */
+/* ------------------ */
+
+.quotes {
+    background-color: #e5e7eb;
 }
