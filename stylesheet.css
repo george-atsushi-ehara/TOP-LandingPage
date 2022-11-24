@@ -25,6 +25,7 @@ body {
     font-size: 24px;
     color: #f9faf8;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 .nav ul {
@@ -34,8 +35,12 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    flex-shrink: 0;
 }
 
+.nav ul li{
+    flex-shrink: 0;
+}
 a {
     color: #e5e7fb;
     text-decoration: none;
