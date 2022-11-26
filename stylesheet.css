@@ -219,3 +219,16 @@ a {
 /* ------------ */
 /* ---Footer--- */
 /* ------------ */
+
+.footer {
+    color: #f9faf8;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
