@@ -132,6 +132,7 @@ a {
   flex-direction: column;
   align-items: center;
   flex: 1;
+  max-width: 155px;
 }
 
 .project .container .item img {
@@ -175,7 +176,46 @@ a {
 /* -------------------- */
 
 
+/* I don't know why doing the max-width and margin on the parent works and not on the .container */
+.cta {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
+.cta .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 200px;
+    padding: 50px;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex: 1;
+    background-color: #3882f6;
+    border-radius: 10px;
+    padding: 20px 100px;
+    margin: 0;
+    gap: 50px;
+}
+
+.box .left {
+    color: #f9faf8;
+    flex-grow: 3;
+}
+
+.box .right {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box .right button {
+    border: white solid 5px;
+    flex-shrink: 0;
+}
 /* ------------ */
 /* ---Footer--- */
 /* ------------ */
